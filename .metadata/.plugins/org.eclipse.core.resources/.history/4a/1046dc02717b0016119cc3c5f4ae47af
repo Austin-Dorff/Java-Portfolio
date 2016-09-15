@@ -1,0 +1,89 @@
+package programs.poker.game;
+
+import java.util.ArrayList;
+
+import javax.swing.JOptionPane;
+
+import programs.poker.cards.Card;
+import programs.poker.cards.DeckOfCards;
+import programs.poker.player.Player;
+
+public class PlayFiveCardDraw
+{
+	private int numberOfPlayers = 0;
+	private double playersStartingMoney = 0;
+	private String playersStartingMoneyMessage = "";
+	
+	ArrayList<Card> deckOfCardsToBeUsed;
+	ArrayList<Card> playerTempList;
+	ArrayList<Player> playersList = new ArrayList<Player>();
+	ArrayList<ArrayList<Card>> playersHand = new ArrayList<ArrayList<Card>>();
+	
+	public PlayFiveCardDraw(int numPlayers, ArrayList<Card> deckOfCards)
+	{
+		deckOfCardsToBeUsed = deckOfCards;
+		numberOfPlayers = numPlayers;
+		createPlayers();
+		deal();
+	}
+	
+	private void createPlayers()
+	{
+		playersStartingMoneyMessage = "Please Enter The Amount Of Money You Would Like Each Player To Start With.";
+		playersStartingMoney = Double.parseDouble(JOptionPane.showInputDialog(null, playersStartingMoneyMessage));
+		for (int index = 0; index < numberOfPlayers; index++)
+		{
+			playersList.add(new Player(playersStartingMoney));
+			playersHand.add((new ArrayList<Card>()));
+		}
+	}
+	
+	public void showCards()
+	{
+		for (int index = 0; index < numberOfPlayers; index++)
+		{
+			System.out.println("Player " + (index + 1) + "'s Hand");
+//			System.out.println("\t" + "Sorted by Suit:");
+//			DeckOfCards.printHand(DeckOfCards.orderHandBySuit(playersHand.get(index)));
+			System.out.println("\t" + "Sorted by Number/Type:");
+			DeckOfCards.printHand(DeckOfCards.orderHandByType(playersHand.get(index)));
+		}
+		
+	}
+
+	public void deal()
+	{
+		for (int index = 0; index < 5; index++)
+		{
+			for (int index2 = 0; index2 < numberOfPlayers; index2++)
+			{
+				playerTempList = playersHand.get(index2);
+				playerTempList.add(deckOfCardsToBeUsed.get(0));
+				deckOfCardsToBeUsed.remove(0);
+			}
+		}
+	}
+	
+	public ArrayList<Card> getBetterHand()
+	{
+		int tempInt = 0;
+		int lowestRank = 1000;
+		int[] handRanks = new int[numberOfPlayers];
+		for (int index = 0; index < numberOfPlayers; index++)
+		{
+			playerTempList = playersHand.get(index);
+			handRanks[index] = DeckOfCards.rankHand(playerTempList);
+		}
+		for (int index = 0; index < handRanks.length; index++)
+		{
+			if (handRanks[index] < lowestRank)
+			{
+				tempInt = index;
+				lowestRank = handRanks[index];
+			}
+		}
+		System.out.println("Player " + (1 + tempInt) + " Won!");
+		return playersHand.get(tempInt);
+	}
+	
+}

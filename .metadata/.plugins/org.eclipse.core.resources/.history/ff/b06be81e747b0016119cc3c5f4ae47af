@@ -1,0 +1,45 @@
+package buttons.nextpuzzlemenu;
+
+import org.newdawn.slick.Image;
+
+import map.TheMap;
+
+import org.newdawn.slick.SlickException;
+import org.newdawn.slick.gui.GUIContext;
+import org.newdawn.slick.state.StateBasedGame;
+
+import resources.Resources;
+import resources.images.PuzzleImage;
+import resources.sounds.GameSound;
+import utilities.Reference;
+import buttons.AdvancedButton;
+
+public class NextPuzzleButton extends AdvancedButton 
+{
+	StateBasedGame sbg;
+	
+	public NextPuzzleButton(GUIContext container, StateBasedGame sbGame, TheMap theMap, Image buttonImage, String textStr, String screenLocation, int yPos, GameSound soundInput)
+	{
+		super(container, sbGame, theMap, buttonImage, textStr, screenLocation, yPos, soundInput);
+		sbg = sbGame;
+	}
+	
+	@Override
+	public void doAction() throws SlickException
+	{
+		PuzzleImage.setPuzzleNumber(PuzzleImage.getPuzzleNumber() + 1);
+		if (Resources.getPuzzleArray1().size() > PuzzleImage.getPuzzleNumber())
+		{
+			PuzzleImage.generateSubImages(PuzzleImage.getPuzzleNumber());
+			sbg.enterState(Reference.GAME_STATE_ID);
+		}
+		else
+		{
+			PuzzleImage.setPuzzleNumber(0);
+			PuzzleImage.generateSubImages(PuzzleImage.getPuzzleNumber());
+			sbg.enterState(Reference.GAME_STATE_ID);
+		}
+
+	}
+
+}

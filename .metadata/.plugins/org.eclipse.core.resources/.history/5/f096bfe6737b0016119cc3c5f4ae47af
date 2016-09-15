@@ -1,0 +1,27 @@
+package com.austindorff.programs.games.imagetiles.buttons.gamemenu;
+
+import map.TheMap;
+
+import org.newdawn.slick.Image;
+import org.newdawn.slick.gui.GUIContext;
+import org.newdawn.slick.state.StateBasedGame;
+
+import resources.sounds.GameSound;
+import states.GameState;
+import buttons.AdvancedButton;
+
+public class DecreaseButton extends AdvancedButton 
+{
+
+	public DecreaseButton(GUIContext container, StateBasedGame sbGame, TheMap theMap, Image buttonImage, String textStr, String screenLocation, int yPos, GameSound soundInput)
+	{
+		super(container, sbGame, theMap, buttonImage, textStr, screenLocation, yPos, soundInput);
+	}
+	
+	@Override
+	public void doAction()
+	{
+		GameState.numMovesLeft = GameState.numMovesLeft - 1;
+	}
+
+}

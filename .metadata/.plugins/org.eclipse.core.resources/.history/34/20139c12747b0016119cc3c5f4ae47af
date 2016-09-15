@@ -1,0 +1,28 @@
+package buttons.mainmenu;
+
+import org.newdawn.slick.Image;
+
+import map.TheMap;
+
+import org.newdawn.slick.SlickException;
+import org.newdawn.slick.gui.GUIContext;
+import org.newdawn.slick.state.StateBasedGame;
+
+import resources.sounds.GameSound;
+import buttons.AdvancedButton;
+
+public class QuitGameButton extends AdvancedButton 
+{
+
+	public QuitGameButton(GUIContext container, StateBasedGame sbGame, TheMap theMap, Image buttonImage, String textStr, String screenLocation, int yPos, GameSound buttonSound)
+	{
+		super(container, sbGame, theMap, buttonImage, textStr, screenLocation, yPos, buttonSound);
+	}
+	
+	@Override
+	public void doAction() throws SlickException
+	{
+		super.doAction();
+		super.getGC().exit();
+	}
+}

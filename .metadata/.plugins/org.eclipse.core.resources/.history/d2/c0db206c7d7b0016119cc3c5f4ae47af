@@ -1,0 +1,53 @@
+package com.austindorff.programs.games.imagetiles.map;
+
+import org.newdawn.slick.SlickException;
+
+import com.austindorff.programs.games.imagetiles.resources.Resources;
+import com.austindorff.programs.games.imagetiles.resources.maps.GameTiledMap;
+
+public class TheMap
+{
+	GameTiledMap theMap;
+	boolean blocked[][];
+	
+	public TheMap(String fileName, String name) throws SlickException
+	{
+		theMap = new GameTiledMap(this.getClass().getRecourceAsStream(fileName), name);
+		Resources.addTiledMap(theMap);
+		blocked = new boolean[theMap.getWidth()][theMap.getHeight()];
+		fillBlockedMatrix();
+	}
+	
+	public GameTiledMap getMap()
+	{
+		return theMap;
+	}
+	
+	public void fillBlockedMatrix()
+	{
+		for (int h = 0; h < theMap.getHeight(); h++)
+		{
+			for (int w = 0; w < theMap.getWidth(); w++)
+			{
+				if ((theMap.getTileProperty(theMap.getTileId(w, h, 0), "Blocked", "False").equals("True")))
+				{
+					blocked[w][h] = true;
+				}
+				else
+				{
+					blocked[w][h] = false;
+				}
+			}
+		}
+	}
+	
+	public boolean[][] getBlockedMatrix()
+	{
+		return blocked;
+	}
+	
+	public boolean isBlocked(int x, int y)
+	{
+		return blocked[x][y];
+	}
+}

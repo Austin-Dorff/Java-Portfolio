@@ -1,0 +1,14 @@
+package com.austindorff.programs.games.imagetiles.utilities.arrays.integers;
+
+public class IntegerArrayUtilities {
+
+	public static int[] createRandomArray(int length, int smallestNumber, int largestNumber)
+	{
+		int[] array = new int[length];
+		for (int index = 0; index < array.length; index++)
+		{
+			array[index] = (int)(Math.random()*(largestNumber - smallestNumber + 1) + smallestNumber);
+		}
+		return array;
+	}
+}

@@ -1,0 +1,7 @@
+DO NOT CHANGE THE CONTENTS OF THE GAME IMAGES FOLDER
+
+Puzzle Images Must Be Square And Have a Dimension of 576 pixels by 576 pixels.
+
+Puzzle Images must be saved as a ".png" file otherwise the game will not be able to load them.
+
+The Program will Load all images from the Puzzle Images folder.

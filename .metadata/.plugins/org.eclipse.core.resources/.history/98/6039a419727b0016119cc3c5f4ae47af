@@ -1,0 +1,103 @@
+package com.austindorff.programs.sorting.numbers.integers;
+
+public class IntegerSorter {
+
+	  public void bubbleSort()
+	    {
+	    	for (index = 0; index < allNumbers.length; index ++)
+	    	{
+	    		for (index2 = 1; index2 < allNumbers.length - index; index2++)
+	    		{
+	    			if (allNumbers[index2 - 1] > allNumbers[index2])
+	    			{
+	    				newInt = allNumbers[index2 - 1];
+	    				allNumbers[index2 - 1] = allNumbers[index2];
+	    				allNumbers[index2] = newInt;
+	    			}
+	    		}
+	    	}
+	    }
+	    
+	    public void bubbleSort2()
+	    {
+	    	for (index = 0; index < allNumbers.length; index ++)
+	    	{
+	    		for (index2 = 1; index2 < allNumbers.length - index; index2++)
+	    		{
+	    			if (allNumbers[index2 - 1] < allNumbers[index2])
+	    			{
+	    				newInt = allNumbers[index2 - 1];
+	    				allNumbers[index2 - 1] = allNumbers[index2];
+	    				allNumbers[index2] = newInt;
+	    			}
+	    		}
+	    	}
+	    }
+	    
+	    public void selectionSort()
+	    {
+	    	for (index = 0; index < allNumbers.length; index++)
+	    	{
+	        	temp = allNumbers[index];
+	        	for (index2 = (index + 1); index2 < allNumbers.length; index2++)
+	        	{
+	        		temp2 = allNumbers[index2];
+	        		if (temp2 < temp)
+	        		{
+	        			allNumbers[index] = temp2;
+	        			allNumbers[index2] = temp;
+	        			temp = temp2;
+	        		}
+	        	}
+	    	}
+	    }
+	    
+	    public void selectionSort2()
+	    {
+	    	for (index = 0; index < allNumbers.length; index++)
+	    	{
+	        	temp = allNumbers[index];
+	        	for (index2 = (index + 1); index2 < allNumbers.length; index2++)
+	        	{
+	        		temp2 = allNumbers[index2];
+	        		if (temp2 > temp)
+	        		{
+	        			allNumbers[index] = temp2;
+	        			allNumbers[index2] = temp;
+	        			temp = temp2;
+	        		}
+	        	}
+	    	}
+	    }
+	    
+	    public void insertionSort()
+	    {
+	    	for (index = 1; index < allNumbers.length; index++)
+	    	{
+	    		intChecked = allNumbers[index];
+	    		index2 = index;
+	    		while (index2 > 0 && allNumbers[index2 - 1] > intChecked)
+	    		{
+	    			allNumbers[index2] = allNumbers[index2 - 1];
+	    			index2--;
+	    		}
+	    		allNumbers[index2] = intChecked;
+	    	}
+	    }
+	    
+	    public void insertionSort2()
+	    {
+	    	for (index = 1; index < allNumbers.length; index++)
+	    	{
+	    		intChecked = allNumbers[index];
+	    		index2 = index;
+	    		
+	    		while (index2 > 0 && allNumbers[index2 - 1] < intChecked)
+	    		{
+	    			allNumbers[index2] = allNumbers[index2 - 1];
+	    			index2--;
+	    		}
+	    		allNumbers[index2] = intChecked;
+	    	}
+	    }
+}

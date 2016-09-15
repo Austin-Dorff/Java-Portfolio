@@ -1,0 +1,131 @@
+2016-09-15 13:51:20,738 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2016-09-15 15:03:02,581 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.jar
+2016-09-15 15:03:02,642 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.jar
+2016-09-15 15:03:02,715 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.pom
+2016-09-15 15:03:02,737 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.3/maven-compiler-plugin-3.3.pom
+2016-09-15 15:03:03,006 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.pom
+2016-09-15 15:03:03,025 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.pom
+2016-09-15 15:03:03,046 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.5/plexus-compiler-2.5.pom
+2016-09-15 15:03:03,067 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler/2.5/plexus-compiler-2.5.pom
+2016-09-15 15:03:03,099 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.pom
+2016-09-15 15:03:03,118 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.pom
+2016-09-15 15:03:03,147 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.pom
+2016-09-15 15:03:03,165 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.pom
+2016-09-15 15:03:03,182 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.5/plexus-compilers-2.5.pom
+2016-09-15 15:03:03,202 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compilers/2.5/plexus-compilers-2.5.pom
+2016-09-15 15:03:03,259 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2016-09-15 15:03:03,329 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+2016-09-15 15:03:03,353 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.jar
+2016-09-15 15:03:03,373 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.5/plexus-compiler-api-2.5.jar
+2016-09-15 15:03:03,394 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.jar
+2016-09-15 15:03:03,416 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.5/plexus-compiler-manager-2.5.jar
+2016-09-15 15:03:03,433 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.jar
+2016-09-15 15:03:03,455 [Worker-51] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.5/plexus-compiler-javac-2.5.jar
+2016-09-15 15:03:03,551 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.austindorff:java-portfolio:0.0.1 @ /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/pom.xml.
+2016-09-15 15:03:04,386 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:04,395 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:03:04,424 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:04,425 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:03:04,436 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java Portfolio/src/main/java
+2016-09-15 15:03:04,437 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Java Portfolio/src/main/resources
+2016-09-15 15:03:04,439 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java Portfolio/src/test/java
+2016-09-15 15:03:04,519 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-09-15 15:03:04,771 [Worker-51] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.austindorff:java-portfolio:0.0.1 @ /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/pom.xml.
+2016-09-15 15:03:05,199 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:05,204 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:03:05,228 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:05,229 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:03:05,264 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java Portfolio/src/main/java
+2016-09-15 15:03:05,264 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Java Portfolio/src/main/resources
+2016-09-15 15:03:05,268 [Worker-51] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java Portfolio/src/test/java
+2016-09-15 15:03:05,315 [Worker-51] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-09-15 15:03:05,479 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:05,481 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:03:05,498 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:05,499 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:03:22,690 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:22,691 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:03:22,692 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:22,692 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:03:32,348 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:32,350 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:03:32,351 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:32,351 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:03:58,319 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:58,321 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:03:58,322 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:03:58,322 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:04:25,309 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:25,310 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:04:25,311 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:25,311 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:04:27,304 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:27,306 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:04:27,307 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:27,307 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:04:40,684 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:40,685 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:04:40,687 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:40,687 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:04:42,909 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:42,912 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:04:42,913 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:04:42,913 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:05:04,073 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:04,074 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:05:04,075 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:04,075 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:05:10,324 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:10,326 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:05:10,326 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:10,327 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:05:14,151 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:14,153 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:05:14,154 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:14,154 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:05:16,819 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:16,821 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:05:16,822 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:16,822 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:05:27,936 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:27,937 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:05:27,938 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:27,939 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:05:35,055 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:35,057 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:05:35,058 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:35,059 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:05:41,197 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:41,198 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:05:41,200 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:05:41,201 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:06:03,317 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-09-15 15:06:03,639 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.austindorff:java-portfolio:0.0.1 @ /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/pom.xml.
+2016-09-15 15:06:03,827 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java Portfolio/src/main/java
+2016-09-15 15:06:03,827 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Java Portfolio/src/main/resources
+2016-09-15 15:06:03,827 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Java Portfolio/src/test/java
+2016-09-15 15:06:04,023 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-09-15 15:06:04,221 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:06:04,223 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:06:04,245 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:06:04,245 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:07:24,785 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:07:24,787 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:07:24,789 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:07:24,789 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:08:01,743 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:08:01,744 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:08:01,745 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:08:01,745 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:09:20,555 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:09:20,557 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:09:20,558 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:09:20,558 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:09:27,606 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:09:27,608 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:09:27,609 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:09:27,610 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources
+2016-09-15 15:11:45,986 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:11:45,989 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 26 resources
+2016-09-15 15:11:46,028 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-09-15 15:11:46,028 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/austindorff/Desktop/Java-Portfolio/Java Portfolio/src/test/resources

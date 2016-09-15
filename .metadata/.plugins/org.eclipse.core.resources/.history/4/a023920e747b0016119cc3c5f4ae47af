@@ -1,0 +1,31 @@
+package buttons.mainmenu;
+
+import org.newdawn.slick.Image;
+
+import map.TheMap;
+
+import org.newdawn.slick.SlickException;
+import org.newdawn.slick.gui.GUIContext;
+import org.newdawn.slick.state.StateBasedGame;
+
+import resources.Resources;
+import resources.sounds.GameSound;
+import utilities.Reference;
+import buttons.AdvancedButton;
+
+public class PlayGameButton extends AdvancedButton 
+{
+
+	public PlayGameButton(GUIContext container, StateBasedGame sbGame, TheMap theMap, Image buttonImage, String textStr, String screenLocation, int yPos, GameSound buttonSound)
+	{
+		super(container, sbGame, theMap, buttonImage, textStr, screenLocation, yPos, buttonSound);
+	}
+	
+	@Override
+	public void doAction() throws SlickException
+	{
+		super.doAction();
+		super.getSBG().enterState(Reference.CHOOSE_IMAGE_STATE_ID);
+	}
+
+}

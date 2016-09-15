@@ -1,0 +1,5 @@
+package com.austindorff.numbers;
+
+public class BaseConverter {
+
+}

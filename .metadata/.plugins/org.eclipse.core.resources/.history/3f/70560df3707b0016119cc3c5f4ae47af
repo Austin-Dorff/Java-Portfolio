@@ -1,0 +1,22 @@
+package programs.poker.player;
+
+public class Player
+{
+	private double playerMoney = 0.0;
+	
+	public Player(double startingMoney)
+	{
+		setPlayersMoney(startingMoney);
+	}
+
+	public void setPlayersMoney(double value)
+	{
+		playerMoney = value;
+	}
+	
+	public double getPlayersMoney()
+	{
+		return playerMoney;
+	}
+	
+}

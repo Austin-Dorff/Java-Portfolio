@@ -1,0 +1,105 @@
+package com.austindorff.programs.pascals;
+
+import java.util.ArrayList;
+
+public class pascals
+{
+	static double							amount			= 0;
+	static ArrayList<ArrayList<Integer>>	complete		= new ArrayList<ArrayList<Integer>>();
+	static ArrayList<Integer>				temp			= new ArrayList<Integer>();
+	static ArrayList<Integer>				temp2			= new ArrayList<Integer>();
+	static int								lines			= 16;
+	static int								counter			= 0;
+	static int								positionTracker	= 0;
+
+	public static void main(String[] args)
+	{
+		createTriangle(lines);
+		printArray();
+	}
+
+	private static void createTriangle(int numLines)
+	{
+		complete = null;
+		complete = new ArrayList<ArrayList<Integer>>();
+		Main:
+		while (counter < numLines)
+		{
+			if (counter == 0)
+			{
+				temp = null;
+				temp = new ArrayList<Integer>();
+				temp.add(1);
+				counter++;
+				complete.add(temp);
+				temp = null;
+				continue Main;
+			}
+			else if (counter == 1)
+			{
+				temp = null;
+				temp = new ArrayList<Integer>();
+				temp.add(1);
+				temp.add(1);
+				counter++;
+				complete.add(temp);
+				temp = null;
+				continue Main;
+			}
+			else
+			{
+				temp = null;
+				temp = new ArrayList<Integer>();
+				temp.add(1);
+				for (int i = 0; i < complete.get(complete.size() - 1).size() - 1; i++)
+				{
+					temp.add(complete.get(complete.size() - 1).get(i) + complete.get(complete.size() - 1).get(i + 1));
+				}
+				temp.add(1);
+				counter++;
+				complete.add(temp);
+				temp = null;
+				continue Main;
+			}
+		}
+	}
+
+	public static void printArray()
+	{
+		for (int i = 0; i < complete.size(); i++)
+		{
+			for (int w = 0; w < complete.get(i).size(); w++)
+			{
+				System.out.print(complete.get(i).get(w) + " ");
+			}
+			System.out.println("");
+		}
+	}
+
+	public static int fact(int num)
+	{
+		if (num == 1)
+		{
+			return 1;
+		}
+		else
+		{
+			return fact(num - 1);
+		}
+	}
+
+	public static double calculateValue()
+	{
+		amount = 0;
+		for (int i = 0; i < 460; i++)
+		{
+			amount += 160;
+			if (i % 12 == 0)
+			{
+				amount += amount * .08;
+			}
+		}
+		return amount;
+	}
+
+}
